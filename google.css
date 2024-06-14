@@ -1,0 +1,129 @@
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: #019A74;
+}
+
+.red-e {
+    color: red;
+}
+
+.blue, .red, .yellow, .green, .red-e{
+    font-weight: 400;
+}
+
+.eazy {
+    width: 30px;
+    border-radius: 100%;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+h1 {
+    position: relative;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.search {
+background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: max;
+    height: 50px;
+    padding: 0 5px;
+    border-radius: 20px;
+    
+
+
+}
+
+.search-box {
+    width: 500px;
+    border-radius: 20px;
+    margin: 0;
+    padding-left: 15px;
+    font-size:  25px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+ a{
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+ }
+ .history{
+background-color: white;
+padding: 0;
+border-radius: 20px;
+margin: 10px;
+
+ }
+button{
+    height: 80px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: #EDF3FF
+    color: #333333;
+}
+
+.bookmarks{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0;
+}
+p{
+margin: 10px;
+font-size: 20px;
+text-align: left;
+padding: 10px;
+}
+
+.star{
+    width:50px;
+}
+
+.page-ctn{
+    border: 2px solid black;
+    max-height: 600px;
+    padding: 0;
+    background-color: #EDF3FF;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin:auto;
+    max-width: 500px;
+    border: 2px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
